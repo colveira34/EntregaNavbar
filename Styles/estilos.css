@@ -1,0 +1,144 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+}
+
+body {
+  background: hsl(228, 45%, 44%);
+  background-repeat: repeat;
+  background-image: url("../img/bg-intro-desktop.png");
+  height: 100%;
+}
+
+.cajaImg {
+  margin-left: 70px;
+  height: 70px;
+  width: 150px;
+}
+
+.contenedorContent {
+  height: 800px;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgContenido {
+  height: 40%;
+  width: 100%;
+}
+
+.imgContenido2 {
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.centrarText {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.ordenImg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.mover {
+  position: relative;
+  bottom: 50px;
+}
+
+.imgContenido3 {
+  height: 400px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.cajaBoton {
+  display: flex;
+  width: 80%;
+  height: 9%;
+  gap: 30px;
+  position: relative;
+  left: 130px;
+}
+
+.boton {
+  border-radius: 20px;
+  width: 19%;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton2 {
+  border-radius: 20px;
+  width: 19%;
+  font-size: 18px;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sobreLaEmpresa {
+  display: flex;
+  width: 50%;
+  margin-top: 30px;
+  p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
