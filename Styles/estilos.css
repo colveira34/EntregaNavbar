@@ -48,7 +48,7 @@ body {
   height: 800px;
   display: flex;
   width: 100%;
-  gap: 20px;
+  gap: 15px;
 }
 
 .wrap {
@@ -141,4 +141,37 @@ p {
 a {
   text-decoration: none;
   color: white;
+}
+
+.tamImg{
+  width: 10%;
+  height: 35%;
+}
+
+
+.seccion2{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+h2{
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.centrado{
+  text-align: center;
+}
+
+.mover{
+  margin-top: 100px;
+}
+
+
+
+.textoP{
+  width: 60%;
 }
